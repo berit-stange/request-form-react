@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;600;700;800&family=Varela+Round&display=swap');
+
+// $font-sans: 'Montserrat',
+// sans-serif;
+$font-sans: 'Raleway',
+sans-serif;
+$color-1: #eeeeee;
+$color-2: #14b042;
+$color-3: #ffffff;
+$color-4: #222222;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: $color-1;
+    color: $color-2;
+    font-family: $font-sans;
+    // padding-top: 3em;
+    margin: 0 auto;
+    // overflow-y: overlay;
+    // scrollbar-gutter: stable;
+    padding: 25px;
+}
+
+.logo {
+    width: 100px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.formular {
+    text-align: center;
+}
+
+.main {
+    max-width: 1080px;
+}
+
+.x {
+    border: 1px solid $color-4;
+}
+
+input {
+    margin: 1em;
+    padding: 1em;
+}
+
+a {
+    color: $color-2;
+    padding: 1em;
+    text-decoration: none;
+    font-family: $font-sans;
+    font-size: 1.2em;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    color: $color-4;
+    padding: 1em;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.product-item {
+    margin: 1em;
+    height: 10em;
+    width: 10em;
+    border-radius: 10%;
+}
+
+.product-title {
+    color: $color-4;
+    font-size: .8em;
+    font-weight: 600;
+}
+
+.fortschritt-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // background-color: transparent;
+    width: 100%;
+}
+
+.fortschritt-dots {
+    border-top: 3px dotted $color-2;
+    height: 10px;
+    position: absolute;
+    top: 4.5em;
+    z-index: 0;
+    width: 100%;
+    max-width: 1020px
+}
+
+.rund {
+    background-color: $color-1;
+    border: $color-2 1px solid;
+    color: $color-2;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    padding: 0.2em;
+    // position: relative;
+    z-index: 10;
+
+    p {
+        font-size: 2em;
+        text-align: center;
+    }
+}
+
+.aktiv {
+    background-color: $color-2;
+    color: $color-1;
+}
