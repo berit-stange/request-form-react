@@ -13,22 +13,22 @@ function PrintareaStool() {
                 </a>
 
                 <a href="#">
-                    <div className="product-item hocker-sitzwuerfel"></div>
+                    <div className="product-item hocker-maks"></div>
                     <p className="product-title">2 Seiten bis max. A4</p>
                 </a>
 
                 <a href="#">
-                    <div className="product-item hocker-barhocker"> </div>
+                    <div className="product-item hocker-maks"> </div>
                     <p className="product-title">3 Seiten bis max. A4</p>
                 </a>
 
                 <a href="#">
-                    <div className="product-item stellwand-dino"> </div>
+                    <div className="product-item hocker-maks"> </div>
                     <p className="product-title">4 Seiten bis max. A4</p>
                 </a>
 
                 <a href="#">
-                    <div className="product-item stellwand-dino"> </div>
+                    <div className="product-item hocker-maks"> </div>
                     <p className="product-title">komplett bedruckt</p>
                 </a>
 

@@ -1,5 +1,7 @@
 import './css/styles.css';
 import './css/background-images.css';
+import { Link } from 'react-router-dom';
+
 
 function Products() {
     return (
@@ -7,10 +9,15 @@ function Products() {
 
             <div className="product-grid">
 
-                <a href="#" className="">
+                <Link to="/printareastool">
+                    {/* <div className="product-item hocker-maks"></div> */}
+                    <p className="product-title">Hocker MAKS</p>
+                </Link>
+
+                {/* <a href="#" className="">
                     <div className="product-item hocker-maks"></div>
                     <p className="product-title">Hocker MAKS</p>
-                </a>
+                </a> */}
 
                 <a href="#">
                     <div className="product-item hocker-sitzwuerfel"></div>
@@ -27,7 +34,7 @@ function Products() {
                     <p className="product-title">Stellwand DINO</p>
                 </a>
 
-                <a href="#">
+                {/* <a href="#">
                     <div className="product-item stellwand-muro-100x200"></div>
                     <p className="product-title">Stellwand MURO 100 x 200 cm</p>
                 </a>
@@ -75,7 +82,7 @@ function Products() {
                 <a href="#">
                     <div className="product-item stellwand-quick-point-q"></div>
                     <p className="product-title">Stellwand QUICK POINT Querformat</p>
-                </a>
+                </a> */}
 
             </div>
 
