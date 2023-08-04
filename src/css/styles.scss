@@ -46,9 +46,9 @@ header {
     max-width: 1080px;
 }
 
-.x {
-    border: 1px solid $color-4;
-}
+// .x {
+//     border: 1px solid $color-4;
+// }
 
 input {
     margin: 1em;
@@ -73,10 +73,12 @@ h1 {
 }
 
 .product-grid {
+    background-color: $color-3;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 0 auto;
     // max-width: 900px;
+    // border: 1px solid $color-4;
 }
 
 .product-item {
