@@ -24,11 +24,13 @@ body {
     margin: 0 auto;
     // overflow-y: overlay;
     // scrollbar-gutter: stable;
-    padding: 25px;
+    // padding: 25px;
+    width: 90%;
+    max-width: 1200px;
 }
 
 .logo {
-    width: 100px;
+    width: 200px;
     position: relative;
     top: 0px;
     left: 0px;
@@ -39,7 +41,9 @@ body {
 }
 
 header {
+    background-color: $color-3;
     height: 70px;
+    padding: 30px 50px 70px 50px;
 }
 
 .main {
