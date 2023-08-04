@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './stange-design-logo.svg';
 // import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -8,6 +9,7 @@ import './css/styles.css';
 import Header from './Header';
 import Main from './Main';
 import Products from './Products';
+import ProductList from './ProductList';
 
 function App() {
   return (
@@ -21,8 +23,9 @@ function App() {
       {/* <Products /> */}
 
       <Routes >
-        <Route exact path="/p" element={<Products />} />
+        <Route exact path="/" element={<Products />} />
         <Route exact path="/printareastool" element={<PrintareaStool />} />
+        <Route exact path="/productlist" element={<ProductList />} />
       </Routes>
 
       {/* </div> */}
