@@ -27,6 +27,7 @@ body {
     // padding: 25px;
     width: 90%;
     max-width: 1200px;
+    // height: 100vw;
 }
 
 .logo {
@@ -76,11 +77,17 @@ h1 {
     text-align: center;
 }
 
-.product-grid {
+.products {
+    height: 100vw;
     background-color: $color-3;
+}
+
+.product-grid {
+    // background-color: $color-3;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 0 auto;
+    // height: 100vw;
     // max-width: 900px;
     // border: 1px solid $color-4;
 }

@@ -58,8 +58,12 @@ h1 {
   text-align: center;
 }
 
-.product-grid {
+.products {
+  height: 100vw;
   background-color: #ffffff;
+}
+
+.product-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: 0 auto;
