@@ -13,12 +13,12 @@ function PrintareaStool() {
                 </a>
 
                 <a href="#">
-                    <div className="product-item hocker-maks-1"></div>
+                    <div className="product-item hocker-maks-2"></div>
                     <p className="product-title">2 Seiten bis max. A4</p>
                 </a>
 
                 <a href="#">
-                    <div className="product-item hocker-maks-1"></div>
+                    <div className="product-item hocker-maks-komplett"></div>
                     <p className="product-title">komplett bedruckt</p>
                 </a>
 
