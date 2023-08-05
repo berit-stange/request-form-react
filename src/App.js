@@ -3,6 +3,7 @@ import logo from './stange-design-logo.svg';
 // import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import PrintareaStool from './PrintareaStool';
+import PrintareaSitzwuerfel from './PrintareaSitzwuerfel';
 
 
 import './css/styles.css';
@@ -24,8 +25,9 @@ function App() {
 
       <Routes >
         <Route exact path="/" element={<Products />} />
-        <Route exact path="/printareastool" element={<PrintareaStool />} />
         <Route exact path="/productlist" element={<ProductList />} />
+        <Route exact path="/printareastool" element={<PrintareaStool />} />
+        <Route exact path="/printareasitzwuerfel" element={<PrintareaSitzwuerfel />} />
       </Routes>
 
       {/* </div> */}
