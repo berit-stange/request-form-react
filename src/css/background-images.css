@@ -83,7 +83,43 @@
 }
 
 .hocker-maks-1 {
-  background-image: url(./../img/hocker-maks-1.jpg);
+  background-image: url(./../img/hocker-maks-1-seite-logo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.hocker-maks-2 {
+  background-image: url(./../img/hocker-maks-2-seiten-logo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.hocker-maks-komplett {
+  background-image: url(./../img/hocker-maks-komplett.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.hocker-sitzwuerfel-1 {
+  background-image: url(./../img/hocker-sitzwuerfel-1-seite-logo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.hocker-sitzwuerfel-2 {
+  background-image: url(./../img/hocker-sitzwuerfel-2-seiten-logo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.hocker-sitzwuerfel-4 {
+  background-image: url(./../img/hocker-sitzwuerfel-4-seiten-logo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.hocker-sitzwuerfel-komplett {
+  background-image: url(./../img/hocker-sitzwuerfel-komplett.jpg);
   background-position: center;
   background-size: cover;
 }/*# sourceMappingURL=background-images.css.map */
