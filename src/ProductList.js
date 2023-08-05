@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState, useEffect, useRef } from "react";
+// import { useState, useEffect, useRef } from "react";
 import './css/styles.css';
 import './css/background-images.css';
 import { Link } from 'react-router-dom';
@@ -7,11 +7,11 @@ import { Link } from 'react-router-dom';
 
 const ProductList = () => {
 
-    useEffect(() => {
+    // useEffect(() => {
 
-    }, [
+    // }, [
 
-    ]);
+    // ]);
 
 
 
