@@ -122,4 +122,22 @@
   background-image: url(./../img/hocker-sitzwuerfel-komplett.jpg);
   background-position: center;
   background-size: cover;
+}
+
+.hocker-barhocker-1 {
+  background-image: url(./../img/hocker-barhocker-1-seite-logo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.hocker-barhocker-2 {
+  background-image: url(./../img/hocker-barhocker-2-seiten-logo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.hocker-barhocker-3 {
+  background-image: url(./../img/hocker-barhocker-komplett.jpg);
+  background-position: center;
+  background-size: cover;
 }/*# sourceMappingURL=background-images.css.map */
