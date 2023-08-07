@@ -18,8 +18,8 @@ function PrintareaBarhocker() {
                 </a>
 
                 <a href="#">
-                    <div className="product-item hocker-barhocker-komplett"></div>
-                    <p className="product-title">4 Seiten mit Logo bis max. A4</p>
+                    <div className="product-item hocker-barhocker-3"></div>
+                    <p className="product-title">komplett bedruckt</p>
                 </a>
 
             </div>
