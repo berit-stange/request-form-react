@@ -8,6 +8,7 @@ import PrintareaBarhocker from './PrintareaBarhocker';
 import PrintareaStellwandDino from './PrintareaStellwandDino';
 import PrintareaStellwandMuro from './PrintareaStellwandMuro';
 import PrintareaStellwandPinPoint from './PrintareaStellwandPinPoint';
+import PrintareaStellwandPinPointXL from './PrintareaStellwandPinPointXL';
 
 import './css/styles.css';
 import Header from './Header';
@@ -36,6 +37,7 @@ function App() {
         <Route exact path="/anfrage/printarea-stellwand-dino" element={<PrintareaStellwandDino />} />
         <Route exact path="/anfrage/printarea-stellwand-muro" element={<PrintareaStellwandMuro />} />
         <Route exact path="/anfrage/printarea-stellwand-pinpoint" element={<PrintareaStellwandPinPoint />} />
+        <Route exact path="/anfrage/printarea-stellwand-pinpoint-xl" element={<PrintareaStellwandPinPointXL />} />
       </Routes>
 
       {/* </div> */}
