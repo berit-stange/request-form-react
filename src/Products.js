@@ -4,9 +4,22 @@ import './css/background-images.css';
 import { Link } from 'react-router-dom';
 
 
+
 function Products() {
     return (
         <div className="products">
+
+            <div className="progress">
+                <div className='line'></div>
+                <div className='button-box'>
+                    <button className="button-progress active" onClick={() => { }} >1</button>
+                    <button className="button-progress" onClick={() => { }} >2</button>
+                    <button className="button-progress" onClick={() => { }} >3</button>
+                    <button className="button-progress" onClick={() => { }} >4</button>
+                    <button className="button-progress" onClick={() => { }} >5</button>
+                    <button className="button-progress" onClick={() => { }} >6</button>
+                </div>
+            </div>
 
             <div className="product-grid">
 
@@ -33,37 +46,37 @@ function Products() {
                 <Link to="/printarea-stellwand-muro">
                     <div className="product-item stellwand-muro-100x200"></div>
                     <p className="product-title">Stellwand MURO <br />
-                    100 x 200 cm</p>
+                        100 x 200 cm</p>
                 </Link>
 
                 <Link to="/printarea-stellwand-muro">
                     <div className="product-item stellwand-muro-110x200"></div>
                     <p className="product-title">Stellwand MURO <br />
-                    110 x 200 cm</p>
+                        110 x 200 cm</p>
                 </Link>
 
                 <Link to="/printarea-stellwand-muro">
                     <div className="product-item stellwand-muro-120x200"></div>
                     <p className="product-title">Stellwand MURO <br />
-                    120 x 200 cm</p>
+                        120 x 200 cm</p>
                 </Link>
 
                 <Link to="/printarea-stellwand-muro">
                     <div className="product-item stellwand-muro-100x220"></div>
                     <p className="product-title">Stellwand MURO <br />
-                    100 x 220 cm</p>
+                        100 x 220 cm</p>
                 </Link>
 
                 <Link to="/printarea-stellwand-muro">
                     <div className="product-item stellwand-muro-110x220"></div>
                     <p className="product-title">Stellwand MURO <br />
-                    110 x 220 cm</p>
+                        110 x 220 cm</p>
                 </Link>
 
                 <Link to="/printarea-stellwand-muro">
                     <div className="product-item stellwand-muro-120x220"></div>
                     <p className="product-title">Stellwand MURO <br />
-                    120 x 220 cm</p>
+                        120 x 220 cm</p>
                 </Link>
 
                 <Link to="/printarea-stellwand-muro">
