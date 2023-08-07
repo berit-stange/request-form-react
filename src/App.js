@@ -6,6 +6,7 @@ import PrintareaStool from './PrintareaStool';
 import PrintareaSitzwuerfel from './PrintareaSitzwuerfel';
 import PrintareaBarhocker from './PrintareaBarhocker';
 import PrintareaStellwandDino from './PrintareaStellwandDino';
+import PrintareaStellwandMuro from './PrintareaStellwandMuro';
 
 import './css/styles.css';
 import Header from './Header';
@@ -31,6 +32,7 @@ function App() {
         <Route exact path="/printareasitzwuerfel" element={<PrintareaSitzwuerfel />} />
         <Route exact path="/printarea-barhocker" element={<PrintareaBarhocker />} />
         <Route exact path="/printarea-stellwand-dino" element={<PrintareaStellwandDino />} />
+        <Route exact path="/printarea-stellwand-muro" element={<PrintareaStellwandMuro />} />
       </Routes>
 
       {/* </div> */}
