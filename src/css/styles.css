@@ -32,6 +32,40 @@ header {
   padding: 30px 50px 70px 50px;
 }
 
+.progress {
+  padding: 10px;
+  background-color: #ffffff;
+}
+.progress .line {
+  border-top: 5px dotted #14b042;
+  width: 100%;
+  position: relative;
+  top: 27px;
+}
+.progress .button-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  top: 0;
+}
+.progress .button-progress {
+  width: 50px;
+  height: 50px;
+  background-color: #eeeeee;
+  border-radius: 50%;
+  border: 2px solid #14b042;
+  color: #14b042;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.progress .active {
+  background-color: #14b042;
+  color: #ffffff;
+}
+
 .main {
   max-width: 1080px;
 }
