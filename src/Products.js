@@ -20,7 +20,7 @@ function Products() {
                     <p className="product-title">Hocker SITZWÜRFEL</p>
                 </Link>
 
-                <Link to="/printareastool">
+                <Link to="/printarea-barhocker">
                     <div className="product-item hocker-barhocker"> </div>
                     <p className="product-title">Hocker BARHOCKER</p>
                 </Link>
