@@ -188,4 +188,52 @@
   background-image: url(./../img/pappmoebel-stellwand-muro-2-seiten-mit-schmalen-seiten.jpg);
   background-position: center;
   background-size: cover;
+}
+
+.stellwand-pin-point-1 {
+  background-image: url(./../img/stellwand-pin-point-standard-1-seite-ohne-stuetzbeine.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.stellwand-pin-point-1-b {
+  background-image: url(./../img/stellwand-pin-point-standard-1-seite-mit-stuetzbeinen.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.stellwand-pin-point-2 {
+  background-image: url(./../img/stellwand-pin-point-standard-2-seiten-ohne-stuetzbeine.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.stellwand-pin-point-2-b {
+  background-image: url(./../img/stellwand-pin-point-standard-2-seiten-mit-stuetzbeinen.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.stellwand-pin-point-xl-1 {
+  background-image: url(./../img/stellwand-pin-point-xl-1-seite-ohne-stuetzbeine.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.stellwand-pin-point-xl-1-b {
+  background-image: url(./../img/stellwand-pin-point-xl-1-seite-mit-stuetzbeinen.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.stellwand-pin-point-xl-2 {
+  background-image: url(./../img/stellwand-pin-point-xl-2-seiten-ohne-stuetzbeine.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.stellwand-pin-point-xl-2-b {
+  background-image: url(./../img/stellwand-pin-point-xl-2-seiten-mit-stuetzbeinen.jpg);
+  background-position: center;
+  background-size: cover;
 }/*# sourceMappingURL=background-images.css.map */
