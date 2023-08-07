@@ -25,7 +25,7 @@ function Products() {
                     <p className="product-title">Hocker BARHOCKER</p>
                 </Link>
 
-                <Link to="/printareastool">
+                <Link to="/printarea-stellwand-dino">
                     <div className="product-item stellwand-dino"> </div>
                     <p className="product-title">Stellwand DINO</p>
                 </Link>
