@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './stange-design-logo.svg';
 // import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, BrowserHistory } from 'react-router-dom';
 import PrintareaStool from './PrintareaStool';
 import PrintareaSitzwuerfel from './PrintareaSitzwuerfel';
 import PrintareaBarhocker from './PrintareaBarhocker';
@@ -10,7 +10,8 @@ import PrintareaStellwandMuro from './PrintareaStellwandMuro';
 
 import './css/styles.css';
 import Header from './Header';
-import Main from './Main';
+import Progress from './Progress';
+// import Main from './Main';
 import Products from './Products';
 import ProductList from './ProductList';
 
@@ -23,7 +24,7 @@ function App() {
 
       <Header />
       {/* <Main /> */}
-      {/* <Products /> */}
+      {/* <Progress  /> */}
 
       <Routes >
         <Route exact path="/" element={<Products />} />
