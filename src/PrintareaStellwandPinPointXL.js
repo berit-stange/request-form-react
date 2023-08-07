@@ -20,22 +20,22 @@ function PrintareaStellwandPinPointXL() {
             <div className="product-grid">
 
                 <a href="#" className="">
-                    <div className="product-item stellwand-pin-point-1"></div>
+                    <div className="product-item stellwand-pin-point-xl-1"></div>
                     <p className="product-title">1 Seite / Mittelwand ohne Stützbeine</p>
                 </a>
 
                 <a href="#">
-                    <div className="product-item stellwand-pin-point-1-b"></div>
+                    <div className="product-item stellwand-pin-point-xl-1-b"></div>
                     <p className="product-title">1 Seite mit Stützbeinen</p>
                 </a>
 
                 <a href="#" className="">
-                    <div className="product-item stellwand-pin-point-2"></div>
+                    <div className="product-item stellwand-pin-point-xl-2"></div>
                     <p className="product-title">2 Seiten / Mittelwand ohne Stützbeine</p>
                 </a>
 
                 <a href="#" className="">
-                    <div className="product-item stellwand-pin-point-2-b"></div>
+                    <div className="product-item stellwand-pin-point-xl-2-b"></div>
                     <p className="product-title">2 Seiten mit Stützbeinen</p>
                 </a>
 
