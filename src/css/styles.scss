@@ -103,7 +103,7 @@ input {
 
 a {
     color: $color-2;
-    padding: 1em;
+    // padding: 1em;
     text-decoration: none;
     font-family: $font-sans;
     font-size: 1.2em;
@@ -124,13 +124,13 @@ h1 {
 }
 
 .product-grid {
-    // background-color: $color-3;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 0 auto;
-    // height: 100vw;
-    // max-width: 900px;
-    // border: 1px solid $color-4;
+
+    a {
+        padding: 1em;
+    }
 }
 
 .product-item {
@@ -147,23 +147,22 @@ h1 {
     padding: 5px;
 }
 
-.fortschritt-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    // background-color: transparent;
-    width: 100%;
-}
+// .fortschritt-container {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+//     width: 100%;
+// }
 
-.fortschritt-dots {
-    border-top: 3px dotted $color-2;
-    height: 10px;
-    position: absolute;
-    top: 4.5em;
-    z-index: 0;
-    width: 100%;
-    max-width: 1020px
-}
+// .fortschritt-dots {
+//     border-top: 3px dotted $color-2;
+//     height: 10px;
+//     position: absolute;
+//     top: 4.5em;
+//     z-index: 0;
+//     width: 100%;
+//     max-width: 1020px
+// }
 
 .rund {
     background-color: $color-1;

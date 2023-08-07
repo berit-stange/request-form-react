@@ -77,7 +77,6 @@ input {
 
 a {
   color: #14b042;
-  padding: 1em;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-size: 1.2em;
@@ -102,6 +101,9 @@ h1 {
   grid-template-columns: repeat(4, 1fr);
   margin: 0 auto;
 }
+.product-grid a {
+  padding: 1em;
+}
 
 .product-item {
   height: 200px;
@@ -115,23 +117,6 @@ h1 {
   font-weight: 600;
   line-height: 1.5;
   padding: 5px;
-}
-
-.fortschritt-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.fortschritt-dots {
-  border-top: 3px dotted #14b042;
-  height: 10px;
-  position: absolute;
-  top: 4.5em;
-  z-index: 0;
-  width: 100%;
-  max-width: 1020px;
 }
 
 .rund {
