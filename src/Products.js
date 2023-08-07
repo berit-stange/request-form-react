@@ -30,43 +30,43 @@ function Products() {
                     <p className="product-title">Stellwand DINO</p>
                 </Link>
 
-                <Link to="/printareastool">
+                <Link to="/printarea-stellwand-muro">
                     <div className="product-item stellwand-muro-100x200"></div>
                     <p className="product-title">Stellwand MURO <br />
                     100 x 200 cm</p>
                 </Link>
 
-                <Link to="/printareastool">
+                <Link to="/printarea-stellwand-muro">
                     <div className="product-item stellwand-muro-110x200"></div>
                     <p className="product-title">Stellwand MURO <br />
                     110 x 200 cm</p>
                 </Link>
 
-                <Link to="/printareastool">
+                <Link to="/printarea-stellwand-muro">
                     <div className="product-item stellwand-muro-120x200"></div>
                     <p className="product-title">Stellwand MURO <br />
                     120 x 200 cm</p>
                 </Link>
 
-                <Link to="/printareastool">
+                <Link to="/printarea-stellwand-muro">
                     <div className="product-item stellwand-muro-100x220"></div>
                     <p className="product-title">Stellwand MURO <br />
                     100 x 220 cm</p>
                 </Link>
 
-                <Link to="/printareastool">
+                <Link to="/printarea-stellwand-muro">
                     <div className="product-item stellwand-muro-110x220"></div>
                     <p className="product-title">Stellwand MURO <br />
                     110 x 220 cm</p>
                 </Link>
 
-                <Link to="/printareastool">
+                <Link to="/printarea-stellwand-muro">
                     <div className="product-item stellwand-muro-120x220"></div>
                     <p className="product-title">Stellwand MURO <br />
                     120 x 220 cm</p>
                 </Link>
 
-                <Link to="/printareastool">
+                <Link to="/printarea-stellwand-muro">
                     <div className="product-item stellwand-pin-point"></div>
                     <p className="product-title">Stellwand PIN POINT</p>
                 </Link>
