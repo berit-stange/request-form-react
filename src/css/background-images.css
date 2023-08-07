@@ -140,4 +140,28 @@
   background-image: url(./../img/hocker-barhocker-komplett.jpg);
   background-position: center;
   background-size: cover;
+}
+
+.stellwand-dino-1 {
+  background-image: url(./../img/stellwand-dino-mittelwand-1-seite.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.stellwand-dino-1-b {
+  background-image: url(./../img/stellwand-dino-mittelwand-1-seite-mit-stuetzbeinen.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.stellwand-dino-2 {
+  background-image: url(./../img/stellwand-dino-mittelwand-2-seite.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.stellwand-dino-2-b {
+  background-image: url(./../img/stellwand-dino-mittelwand-2-seite-mit-stuetzbeinen.jpg);
+  background-position: center;
+  background-size: cover;
 }/*# sourceMappingURL=background-images.css.map */
