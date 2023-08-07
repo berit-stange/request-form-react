@@ -8,7 +8,7 @@ function PrintareaStellwandPinPointXL() {
             <div className="progress">
                 <div className='line'></div>
                 <div className='button-box'>
-                    <button className="button-progress" onClick={() => { }} >1</button>
+                    <button className="button-progress active" onClick={() => { }} >1</button>
                     <button className="button-progress active" onClick={() => { }} >2</button>
                     <button className="button-progress" onClick={() => { }} >3</button>
                     <button className="button-progress" onClick={() => { }} >4</button>
