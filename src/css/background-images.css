@@ -236,4 +236,22 @@
   background-image: url(./../img/stellwand-pin-point-xl-2-seiten-mit-stuetzbeinen.jpg);
   background-position: center;
   background-size: cover;
+}
+
+.weiss-auf-natur {
+  background-image: url(./../img/druck-weiss-natur-IMG-3212.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.schwarz-auf-natur {
+  background-image: url(./../img/druck-schwarz-natur-IMG-5600.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.schwarz-farbe-auf-natur {
+  background-image: url(./../img/druck-schwarz-und-farbe-natur-IMG-5600.jpg);
+  background-position: center;
+  background-size: cover;
 }/*# sourceMappingURL=background-images.css.map */
