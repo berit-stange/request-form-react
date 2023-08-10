@@ -86,8 +86,6 @@ header {
 
 }
 
-
-
 .main {
     max-width: 1080px;
 }
@@ -173,4 +171,21 @@ h1 {
     margin: 0 auto;
     color: #222222;
     padding: 10px;
+}
+
+.number-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 auto;
+
+    .number {
+        background-color: $color-1;
+        margin: 1em;
+        padding: 1em;
+        border: 0;
+
+        &:hover {
+            background-color: $color-2;
+        }
+    }
 }

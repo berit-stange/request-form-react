@@ -1,5 +1,6 @@
 import './css/styles.css';
 import './css/background-images.css';
+import { Link } from 'react-router-dom';
 
 function ColorOptionsStoolMaks() {
     return (
@@ -24,20 +25,20 @@ function ColorOptionsStoolMaks() {
 
             <div className="product-grid">
 
-                <a href="#" className="">
+                <Link to="/anfrage/number-of-stools">
                     <div className="product-item weiss-auf-natur"></div>
                     <p className="product-title">Weiß auf naturbraun</p>
-                </a>
+                </Link>
 
-                <a href="#">
+                <Link to="/anfrage/number-of-stools">
                     <div className="product-item schwarz-auf-natur"></div>
                     <p className="product-title">Schwarz auf naturbraun</p>
-                </a>
+                </Link>
 
-                <a href="#">
+                <Link to="/anfrage/number-of-stools">
                     <div className="product-item farbe-auf-weiss-maks-1"></div>
                     <p className="product-title">1 Farbe auf Weiss</p>
-                </a>
+                </Link>
 
 
 

@@ -1,5 +1,6 @@
 import './css/styles.css';
 import './css/background-images.css';
+import { Link } from 'react-router-dom';
 
 function ColorOptionsStoolSitzwuerfel() {
     return (
@@ -24,30 +25,30 @@ function ColorOptionsStoolSitzwuerfel() {
 
             <div className="product-grid">
 
-                <a href="#" className="">
+                <Link to="/anfrage/number-of-stools">
                     <div className="product-item weiss-auf-natur"></div>
                     <p className="product-title">Weiß auf naturbraun</p>
-                </a>
+                </Link>
 
-                <a href="#" className="">
+                <Link to="/anfrage/number-of-stools">
                     <div className="product-item schwarz-auf-natur"></div>
                     <p className="product-title">Schwarz auf naturbraun</p>
-                </a>
+                </Link>
 
-                <a href="#" className="">
+                <Link to="/anfrage/number-of-stools">
                     <div className="product-item schwarz-farbe-auf-natur"></div>
                     <p className="product-title">2 Farben auf naturbraun</p>
-                </a>
+                </Link>
 
-                <a href="#" className="">
+                <Link to="/anfrage/number-of-stools">
                     <div className="product-item komplett-farbig-sitwuerfel"></div>
                     <p className="product-title">vollfarbig</p>
-                </a>
+                </Link>
 
-                <a href="#" className="">
+                <Link to="/anfrage/number-of-stools">
                     <div className="product-item farbe-auf-weiss-1"></div>
                     <p className="product-title">1 Farbe auf Weiss</p>
-                </a>
+                </Link>
 
             </div>
 
