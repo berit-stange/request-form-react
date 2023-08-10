@@ -1,5 +1,6 @@
 import './css/styles.css';
 import './css/background-images.css';
+import { Link } from 'react-router-dom';
 
 function PrintareaStellwandPinPoint() {
     return (
@@ -19,25 +20,25 @@ function PrintareaStellwandPinPoint() {
 
             <div className="product-grid">
 
-                <a href="#" className="">
+                <Link to="/anfrage/color-options">
                     <div className="product-item stellwand-pin-point-1"></div>
                     <p className="product-title">1 Seite / Mittelwand ohne Stützbeine</p>
-                </a>
+                </Link>
 
-                <a href="#">
+                <Link to="/anfrage/color-options">
                     <div className="product-item stellwand-pin-point-1-b"></div>
                     <p className="product-title">1 Seite mit Stützbeinen</p>
-                </a>
+                </Link>
 
-                <a href="#" className="">
+                <Link to="/anfrage/color-options">
                     <div className="product-item stellwand-pin-point-2"></div>
                     <p className="product-title">2 Seiten / Mittelwand ohne Stützbeine</p>
-                </a>
+                </Link>
 
-                <a href="#" className="">
+                <Link to="/anfrage/color-options">
                     <div className="product-item stellwand-pin-point-2-b"></div>
                     <p className="product-title">2 Seiten mit Stützbeinen</p>
-                </a>
+                </Link>
 
             </div>
 
