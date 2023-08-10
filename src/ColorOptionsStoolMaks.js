@@ -35,14 +35,11 @@ function ColorOptionsStoolMaks() {
                 </a>
 
                 <a href="#">
-                    <div className="product-item schwarz-farbe-auf-natur"></div>
-                    <p className="product-title">2 Farben auf naturbraun</p>
+                    <div className="product-item farbe-auf-weiss-maks-1"></div>
+                    <p className="product-title">1 Farbe auf Weiss</p>
                 </a>
 
-                <a href="#">
-                    <div className="product-item schwarz-farbe-auf-natur"></div>
-                    <p className="product-title">komplett bunt</p>
-                </a>
+
 
             </div>
 
