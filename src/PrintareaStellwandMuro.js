@@ -1,5 +1,6 @@
 import './css/styles.css';
 import './css/background-images.css';
+import { Link } from 'react-router-dom';
 
 function PrintareaStellwandMuro() {
     return (
@@ -19,25 +20,25 @@ function PrintareaStellwandMuro() {
 
             <div className="product-grid">
 
-                <a href="#" className="">
+                <Link to="/anfrage/color-options">
                     <div className="product-item stellwand-muro-1"></div>
                     <p className="product-title">1 Seite / Mittelwand</p>
-                </a>
+                </Link>
 
-                <a href="#">
+                <Link to="/anfrage/color-options">
                     <div className="product-item stellwand-muro-1-b"></div>
                     <p className="product-title">1 Seite mit schmaler Seite</p>
-                </a>
+                </Link>
 
-                <a href="#" className="">
+                <Link to="/anfrage/color-options">
                     <div className="product-item stellwand-muro-2"></div>
                     <p className="product-title">2 Seiten / Mittelwand</p>
-                </a>
+                </Link>
 
-                <a href="#" className="">
+                <Link to="/anfrage/color-options">
                     <div className="product-item stellwand-muro-2-b"></div>
                     <p className="product-title">2 Seiten mit schmalen Seiten</p>
-                </a>
+                </Link>
 
             </div>
 
