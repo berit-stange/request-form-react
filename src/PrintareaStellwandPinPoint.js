@@ -18,6 +18,10 @@ function PrintareaStellwandPinPoint() {
                 </div>
             </div>
 
+            <div>
+                <p className="erklaerung">Die Größe der Druckfläche ist der wichtigste Faktor für den Preis.</p>
+            </div>
+
             <div className="product-grid">
 
                 <Link to="/anfrage/color-options">
