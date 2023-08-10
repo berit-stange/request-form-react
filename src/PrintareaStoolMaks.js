@@ -2,7 +2,7 @@ import './css/styles.css';
 import './css/background-images.css';
 import { Link } from 'react-router-dom';
 
-function PrintareaStool() {
+function PrintareaStoolMaks() {
     return (
         <div className="products">
 
@@ -20,17 +20,17 @@ function PrintareaStool() {
 
             <div className="product-grid">
 
-                <Link to="/anfrage/color-options">
+                <Link to="/anfrage/color-options-stools">
                     <div className="product-item hocker-maks-1"></div>
                     <p className="product-title">1 Seite bis max. A4</p>
                 </Link>
 
-                <Link to="/anfrage/color-options">
+                <Link to="/anfrage/color-options-stools">
                     <div className="product-item hocker-maks-2"></div>
                     <p className="product-title">2 Seiten bis max. A4</p>
                 </Link>
 
-                <Link to="/anfrage/color-options">
+                <Link to="/anfrage/color-options-stools">
                     <div className="product-item hocker-maks-komplett"></div>
                     <p className="product-title">komplett bedruckt</p>
                 </Link>
@@ -41,4 +41,4 @@ function PrintareaStool() {
     );
 }
 
-export default PrintareaStool;
+export default PrintareaStoolMaks;
