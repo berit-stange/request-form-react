@@ -10,12 +10,10 @@ import PrintareaStellwandMuro from './PrintareaStellwandMuro';
 import PrintareaStellwandPinPoint from './PrintareaStellwandPinPoint';
 import PrintareaStellwandPinPointXL from './PrintareaStellwandPinPointXL';
 import ColorOptions from './ColorOptions';
-import ColorOptionsStools from './ColorOptionsStools';
+import ColorOptionsStoolSitzwuerfel from './ColorOptionsStoolSitzwuerfel';
 
 import './css/styles.css';
 import Header from './Header';
-import Progress from './Progress';
-// import Main from './Main';
 import Products from './Products';
 import ProductList from './ProductList';
 
@@ -24,11 +22,7 @@ function App() {
 
     <BrowserRouter >
 
-      {/* <div className="app-js"> */}
-
       <Header />
-      {/* <Main /> */}
-      {/* <Progress  /> */}
 
       <Routes >
         <Route exact path="/anfrage/" element={<Products />} />
@@ -41,10 +35,9 @@ function App() {
         <Route exact path="/anfrage/printarea-stellwand-pinpoint" element={<PrintareaStellwandPinPoint />} />
         <Route exact path="/anfrage/printarea-stellwand-pinpoint-xl" element={<PrintareaStellwandPinPointXL />} />
         <Route exact path="/anfrage/color-options" element={<ColorOptions />} />
-        <Route exact path="/anfrage/color-options-stools" element={<ColorOptionsStools />} />
+        <Route exact path="/anfrage/color-options-stool-sitzwuerfel" element={<ColorOptionsStoolSitzwuerfel />} />
       </Routes>
 
-      {/* </div> */}
     </BrowserRouter>
   );
 }

@@ -1,7 +1,7 @@
 import './css/styles.css';
 import './css/background-images.css';
 
-function ColorOptionsStools() {
+function ColorOptionsStoolSitzwuerfel() {
     return (
         <div className="products">
 
@@ -50,4 +50,4 @@ function ColorOptionsStools() {
     );
 }
 
-export default ColorOptionsStools;
+export default ColorOptionsStoolSitzwuerfel;
