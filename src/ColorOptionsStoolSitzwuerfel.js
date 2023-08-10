@@ -29,19 +29,24 @@ function ColorOptionsStoolSitzwuerfel() {
                     <p className="product-title">Weiß auf naturbraun</p>
                 </a>
 
-                <a href="#">
+                <a href="#" className="">
                     <div className="product-item schwarz-auf-natur"></div>
                     <p className="product-title">Schwarz auf naturbraun</p>
                 </a>
 
-                <a href="#">
+                <a href="#" className="">
                     <div className="product-item schwarz-farbe-auf-natur"></div>
                     <p className="product-title">2 Farben auf naturbraun</p>
                 </a>
 
-                <a href="#">
-                    <div className="product-item schwarz-farbe-auf-natur"></div>
-                    <p className="product-title">komplett bunt</p>
+                <a href="#" className="">
+                    <div className="product-item komplett-farbig-sitwuerfel"></div>
+                    <p className="product-title">vollfarbig</p>
+                </a>
+
+                <a href="#" className="">
+                    <div className="product-item farbe-auf-weiss-1"></div>
+                    <p className="product-title">1 Farbe auf Weiss</p>
                 </a>
 
             </div>
