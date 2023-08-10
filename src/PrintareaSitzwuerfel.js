@@ -1,5 +1,6 @@
 import './css/styles.css';
 import './css/background-images.css';
+import { Link } from 'react-router-dom';
 
 function PrintareaSitzwuerfel() {
     return (
