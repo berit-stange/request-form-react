@@ -1,5 +1,6 @@
 import './css/styles.css';
 import './css/background-images.css';
+import { Link } from 'react-router-dom';
 
 function PrintareaBarhocker() {
     return (
@@ -19,20 +20,20 @@ function PrintareaBarhocker() {
 
             <div className="product-grid">
 
-                <a href="#" className="">
+                <Link to="/anfrage/color-options">
                     <div className="product-item hocker-barhocker-1"></div>
                     <p className="product-title">1 Seite mit Logo bis max. A4</p>
-                </a>
+                </Link>
 
-                <a href="#">
+                <Link to="/anfrage/color-options">
                     <div className="product-item hocker-barhocker-2"></div>
                     <p className="product-title">2 Seiten mit Logo bis max. A4</p>
-                </a>
+                </Link>
 
-                <a href="#">
+                <Link to="/anfrage/color-options">
                     <div className="product-item hocker-barhocker-3"></div>
                     <p className="product-title">komplett bedruckt</p>
-                </a>
+                </Link>
 
             </div>
 
