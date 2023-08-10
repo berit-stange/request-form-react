@@ -9,6 +9,7 @@ import PrintareaStellwandDino from './PrintareaStellwandDino';
 import PrintareaStellwandMuro from './PrintareaStellwandMuro';
 import PrintareaStellwandPinPoint from './PrintareaStellwandPinPoint';
 import PrintareaStellwandPinPointXL from './PrintareaStellwandPinPointXL';
+import ColorOptions from './ColorOptions';
 
 import './css/styles.css';
 import Header from './Header';
@@ -38,6 +39,7 @@ function App() {
         <Route exact path="/anfrage/printarea-stellwand-muro" element={<PrintareaStellwandMuro />} />
         <Route exact path="/anfrage/printarea-stellwand-pinpoint" element={<PrintareaStellwandPinPoint />} />
         <Route exact path="/anfrage/printarea-stellwand-pinpoint-xl" element={<PrintareaStellwandPinPointXL />} />
+        <Route exact path="/anfrage/color-options" element={<ColorOptions />} />
       </Routes>
 
       {/* </div> */}
