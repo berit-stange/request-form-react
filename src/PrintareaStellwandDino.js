@@ -1,5 +1,6 @@
 import './css/styles.css';
 import './css/background-images.css';
+import { Link } from 'react-router-dom';
 
 function PrintareaStellwandDino() {
     return (
@@ -19,25 +20,25 @@ function PrintareaStellwandDino() {
 
             <div className="product-grid">
 
-                <a href="#" className="">
+                <Link to="/anfrage/color-options">
                     <div className="product-item stellwand-dino-1"></div>
                     <p className="product-title">1 Seite / Mittelwand</p>
-                </a>
+                </Link>
 
-                <a href="#">
+                <Link to="/anfrage/color-options">
                     <div className="product-item stellwand-dino-1-b"></div>
                     <p className="product-title">1 Seite mit Stützbeinen</p>
-                </a>
+                </Link>
 
-                <a href="#" className="">
+                <Link to="/anfrage/color-options">
                     <div className="product-item stellwand-dino-2"></div>
                     <p className="product-title">2 Seiten / Mittelwand</p>
-                </a>
+                </Link>
 
-                <a href="#" className="">
+                <Link to="/anfrage/color-options">
                     <div className="product-item stellwand-dino-2-b"></div>
                     <p className="product-title">2 Seiten mit Stützbeinen</p>
-                </a>
+                </Link>
 
             </div>
 
