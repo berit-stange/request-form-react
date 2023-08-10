@@ -10,12 +10,14 @@ import PrintareaStellwandMuro from './PrintareaStellwandMuro';
 import PrintareaStellwandPinPoint from './PrintareaStellwandPinPoint';
 import PrintareaStellwandPinPointXL from './PrintareaStellwandPinPointXL';
 import ColorOptions from './ColorOptions';
+import ColorOptionsStoolMaks from './ColorOptionsStoolMaks';
 import ColorOptionsStoolSitzwuerfel from './ColorOptionsStoolSitzwuerfel';
 
 import './css/styles.css';
 import Header from './Header';
 import Products from './Products';
 import ProductList from './ProductList';
+
 
 function App() {
   return (
@@ -35,6 +37,7 @@ function App() {
         <Route exact path="/anfrage/printarea-stellwand-pinpoint" element={<PrintareaStellwandPinPoint />} />
         <Route exact path="/anfrage/printarea-stellwand-pinpoint-xl" element={<PrintareaStellwandPinPointXL />} />
         <Route exact path="/anfrage/color-options" element={<ColorOptions />} />
+        <Route exact path="/anfrage/color-options-stool-sitzwuerfel" element={<ColorOptionsStoolMaks />} />
         <Route exact path="/anfrage/color-options-stool-sitzwuerfel" element={<ColorOptionsStoolSitzwuerfel />} />
       </Routes>
 
