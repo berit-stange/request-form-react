@@ -37,7 +37,7 @@ function App() {
         <Route exact path="/anfrage/printarea-stellwand-pinpoint" element={<PrintareaStellwandPinPoint />} />
         <Route exact path="/anfrage/printarea-stellwand-pinpoint-xl" element={<PrintareaStellwandPinPointXL />} />
         <Route exact path="/anfrage/color-options" element={<ColorOptions />} />
-        <Route exact path="/anfrage/color-options-stool-sitzwuerfel" element={<ColorOptionsStoolMaks />} />
+        <Route exact path="/anfrage/color-options-stool-maks" element={<ColorOptionsStoolMaks />} />
         <Route exact path="/anfrage/color-options-stool-sitzwuerfel" element={<ColorOptionsStoolSitzwuerfel />} />
       </Routes>
 
