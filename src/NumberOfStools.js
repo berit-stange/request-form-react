@@ -21,6 +21,10 @@ function NumberOfStools() {
             <div>
                 <p className="erklaerung">Wählen Sie die Farben aus. Je nach Stückzahl und Produkt entscheiden wir,
                     ob mit Sieb- oder Digitaldruck produziert wird.</p>
+                <p className="erklaerung">
+                    Wenn Sie noch nicht sicher sind, weil noch nicht alles geklärt ist, wählen Sie eine Stückzahl,
+                    die dem Ziel am nächsten ist.
+                </p>
             </div>
 
             <div className="number-grid">
@@ -31,41 +35,59 @@ function NumberOfStools() {
                     </div>
                 </Link>
 
-                <a className="number">
-                    <p className="">75</p>
-                </a>
+                <Link to="/anfrage/number-of-stools">
+                    <div className="number">
+                        <p className="">100</p>
+                    </div>
+                </Link>
 
-                <a className="number">
-                    <p className="">100</p>
-                </a>
+                <Link to="/anfrage/number-of-stools">
+                    <div className="number">
+                        <p className="">150</p>
+                    </div>
+                </Link>
 
-                <a className="number">
-                    <p className="">120</p>
-                </a>
+                <Link to="/anfrage/number-of-stools">
+                    <div className="number">
+                        <p className="">175</p>
+                    </div>
+                </Link>
 
-                <a className="number">
-                    <p className="">150</p>
-                </a>
+                <Link to="/anfrage/number-of-stools">
+                    <div className="number">
+                        <p className="">200</p>
+                    </div>
+                </Link>
 
-                <a className="number">
-                    <p className="">200</p>
-                </a>
+                <Link to="/anfrage/number-of-stools">
+                    <div className="number">
+                        <p className="">225</p>
+                    </div>
+                </Link>
 
-                <a>
-                    <p className="">250</p>
-                </a>
+                <Link to="/anfrage/number-of-stools">
+                    <div className="number">
+                        <p className="">250</p>
+                    </div>
+                </Link>
 
-                <a>
-                    <p className="">300</p>
-                </a>
+                <Link to="/anfrage/number-of-stools">
+                    <div className="number">
+                        <p className="">375</p>
+                    </div>
+                </Link>
 
-                <a>
-                    <p className="">350</p>
-                </a>
+                <Link to="/anfrage/number-of-stools">
+                    <div className="number">
+                        <p className="">400</p>
+                    </div>
+                </Link>
 
-                <a>
-                    <p className="">400</p>
-                </a>
+                <Link to="/anfrage/number-of-stools">
+                    <div className="number">
+                        <p className="">450</p>
+                    </div>
+                </Link>
 
             </div>
 
