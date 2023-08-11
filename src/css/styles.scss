@@ -180,9 +180,11 @@ h1 {
 
     .number {
         background-color: $color-1;
+        border: 0;
+        font-weight: 600;
         margin: 1em;
         padding: 1em;
-        border: 0;
+        text-align: center;
 
         &:hover {
             background-color: $color-2;
