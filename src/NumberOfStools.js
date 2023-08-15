@@ -21,13 +21,17 @@ function NumberOfStools() {
             <div>
                 <p className="erklaerung">Wählen Sie die Farben aus. Je nach Stückzahl und Produkt entscheiden wir,
                     ob mit Sieb- oder Digitaldruck produziert wird.</p>
-                <p className="erklaerung">
+                {/* <p className="erklaerung">
                     Wenn Sie noch nicht sicher sind, weil noch nicht alles geklärt ist, wählen Sie eine Stückzahl,
                     die dem Ziel am nächsten ist.
-                </p>
+                </p> */}
             </div>
 
-            <div className="number-grid">
+            <form className="number-input">
+                <input></input>
+            </form>
+
+            {/* <div className="number-grid">
 
                 <Link to="/anfrage/number-of-stools">
                     <div className="number">
@@ -89,7 +93,7 @@ function NumberOfStools() {
                     </div>
                 </Link>
 
-            </div>
+            </div> */}
 
         </div>
     );
