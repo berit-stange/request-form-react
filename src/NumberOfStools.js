@@ -27,8 +27,8 @@ function NumberOfStools() {
                 </p> */}
             </div>
 
-            <form className="number-input">
-                <input></input>
+            <form className="number-input-box">
+                <input className="number-input"></input>
             </form>
 
             {/* <div className="number-grid">
