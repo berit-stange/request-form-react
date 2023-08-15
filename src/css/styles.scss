@@ -191,3 +191,14 @@ h1 {
         }
     }
 }
+
+.number-input-box {
+    display: grid;
+}
+
+.number-input {
+    width: 35%;
+    // margin: 0 auto;
+    // text-align: center;
+    justify-self: center;
+}

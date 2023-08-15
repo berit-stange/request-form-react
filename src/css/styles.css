@@ -164,4 +164,13 @@ h1 {
 }
 .number-grid .number:hover {
   background-color: #14b042;
+}
+
+.number-input-box {
+  display: grid;
+}
+
+.number-input {
+  width: 35%;
+  justify-self: center;
 }/*# sourceMappingURL=styles.css.map */
