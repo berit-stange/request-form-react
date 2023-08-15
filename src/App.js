@@ -12,6 +12,7 @@ import PrintareaStellwandPinPointXL from './PrintareaStellwandPinPointXL';
 import NumberOfStools from './NumberOfStools';
 import ColorOptionsStoolMaks from './ColorOptionsStoolMaks';
 import ColorOptionsStoolSitzwuerfel from './ColorOptionsStoolSitzwuerfel';
+import NumberOfWalls from './NumberOfWalls';
 
 import './css/styles.css';
 import Header from './Header';
@@ -39,6 +40,7 @@ function App() {
         <Route exact path="/anfrage/color-options-stool-maks" element={<ColorOptionsStoolMaks />} />
         <Route exact path="/anfrage/color-options-stool-sitzwuerfel" element={<ColorOptionsStoolSitzwuerfel />} />
         <Route exact path="/anfrage/number-of-stools" element={<NumberOfStools />} />
+        <Route exact path="/anfrage/number-of-walls" element={<NumberOfWalls />} />
       </Routes>
 
     </BrowserRouter>
