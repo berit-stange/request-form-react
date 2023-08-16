@@ -24,22 +24,22 @@ function PrintareaStellwandPinPoint() {
 
             <div className="product-grid">
 
-                <Link to="/anfrage/color-options">
+                <Link to="/anfrage/color-options-stool-maks">
                     <div className="product-item stellwand-pin-point-1"></div>
                     <p className="product-title">1 Seite / Mittelwand ohne Stützbeine</p>
                 </Link>
 
-                <Link to="/anfrage/color-options">
+                <Link to="/anfrage/color-options-stool-maks">
                     <div className="product-item stellwand-pin-point-1-b"></div>
                     <p className="product-title">1 Seite mit Stützbeinen</p>
                 </Link>
 
-                <Link to="/anfrage/color-options">
+                <Link to="/anfrage/color-options-stool-maks">
                     <div className="product-item stellwand-pin-point-2"></div>
                     <p className="product-title">2 Seiten / Mittelwand ohne Stützbeine</p>
                 </Link>
 
-                <Link to="/anfrage/color-options">
+                <Link to="/anfrage/color-options-stool-maks">
                     <div className="product-item stellwand-pin-point-2-b"></div>
                     <p className="product-title">2 Seiten mit Stützbeinen</p>
                 </Link>
