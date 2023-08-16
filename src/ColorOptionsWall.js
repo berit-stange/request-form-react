@@ -37,7 +37,7 @@ function ColorOptionsWall() {
 
                 <Link to="/anfrage/number-of-stools">
                     <div className="product-item komplett-farbig-wand-muro"></div>
-                    <p className="product-title">1 Farbe auf Weiss</p>
+                    <p className="product-title">Vollfarbig</p>
                 </Link>
 
             </div>
