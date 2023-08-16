@@ -24,22 +24,22 @@ function PrintareaStellwandMuro() {
 
             <div className="product-grid">
 
-                <Link to="/anfrage/color-options-stool-maks">
+                <Link to="/anfrage/color-options-wall">
                     <div className="product-item stellwand-muro-1"></div>
                     <p className="product-title">1 Seite / Mittelwand</p>
                 </Link>
 
-                <Link to="/anfrage/color-options-stool-maks">
+                <Link to="/anfrage/color-options-wall">
                     <div className="product-item stellwand-muro-1-b"></div>
                     <p className="product-title">1 Seite mit schmaler Seite</p>
                 </Link>
 
-                <Link to="/anfrage/color-options-stool-maks">
+                <Link to="/anfrage/color-options-wall">
                     <div className="product-item stellwand-muro-2"></div>
                     <p className="product-title">2 Seiten / Mittelwand</p>
                 </Link>
 
-                <Link to="/anfrage/color-options-stool-maks">
+                <Link to="/anfrage/color-options-wall">
                     <div className="product-item stellwand-muro-2-b"></div>
                     <p className="product-title">2 Seiten mit schmalen Seiten</p>
                 </Link>
