@@ -272,4 +272,10 @@
   background-image: url(./../img/papphocker-sitzwuerfel-mit-druck-bunt.jpg);
   background-position: center;
   background-size: cover;
+}
+
+.komplett-farbig-wand-muro {
+  background-image: url(./../img/stellwand-muro-astra-zeneca-3280.jpg);
+  background-position: center;
+  background-size: cover;
 }/*# sourceMappingURL=background-images.css.map */
