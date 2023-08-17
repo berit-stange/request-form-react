@@ -17,6 +17,8 @@ import ColorOptionsStoolSitzwuerfel from './ColorOptionsStoolSitzwuerfel';
 import ColorOptionsWall from './ColorOptionsWall';
 import NumberOfWalls from './NumberOfWalls';
 
+import Footer from './Footer';
+
 import './css/styles.css';
 import Header from './Header';
 import Products from './Products';
@@ -49,6 +51,8 @@ function App() {
         <Route exact path="/anfrage/number-of-stools" element={<NumberOfStools />} />
         <Route exact path="/anfrage/number-of-walls" element={<NumberOfWalls />} />
       </Routes>
+
+      <Footer />
 
     </BrowserRouter>
   );

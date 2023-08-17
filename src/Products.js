@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 
 
 
+
 function Products() {
     return (
         <div className="products">
@@ -100,6 +101,8 @@ function Products() {
                 </Link>
 
             </div>
+
+
 
         </div>
     );
