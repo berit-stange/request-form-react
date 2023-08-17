@@ -9,6 +9,8 @@ import PrintareaStellwandDino from './PrintareaStellwandDino';
 import PrintareaStellwandMuro from './PrintareaStellwandMuro';
 import PrintareaStellwandPinPoint from './PrintareaStellwandPinPoint';
 import PrintareaStellwandPinPointXL from './PrintareaStellwandPinPointXL';
+import PrintareaStellwandQuickPointHoch from './PrintareaStellwandQuickPointHoch';
+
 import NumberOfStools from './NumberOfStools';
 import ColorOptionsStoolMaks from './ColorOptionsStoolMaks';
 import ColorOptionsStoolSitzwuerfel from './ColorOptionsStoolSitzwuerfel';
@@ -31,6 +33,7 @@ function App() {
       <Routes >
         <Route exact path="/anfrage/" element={<Products />} />
         <Route exact path="/anfrage/productlist" element={<ProductList />} />
+
         <Route exact path="/anfrage/printarea-stool-maks" element={<PrintareaStoolMaks />} />
         <Route exact path="/anfrage/printareasitzwuerfel" element={<PrintareaStoolSitzwuerfel />} />
         <Route exact path="/anfrage/printarea-barhocker" element={<PrintareaBarhocker />} />
@@ -38,6 +41,8 @@ function App() {
         <Route exact path="/anfrage/printarea-stellwand-muro" element={<PrintareaStellwandMuro />} />
         <Route exact path="/anfrage/printarea-stellwand-pinpoint" element={<PrintareaStellwandPinPoint />} />
         <Route exact path="/anfrage/printarea-stellwand-pinpoint-xl" element={<PrintareaStellwandPinPointXL />} />
+        <Route exact path="/anfrage/printarea-stellwand-quickpoint-hoch" element={<PrintareaStellwandQuickPointHoch />} />
+
         <Route exact path="/anfrage/color-options-stool-maks" element={<ColorOptionsStoolMaks />} />
         <Route exact path="/anfrage/color-options-stool-sitzwuerfel" element={<ColorOptionsStoolSitzwuerfel />} />
         <Route exact path="/anfrage/color-options-wall" element={<ColorOptionsWall />} />
