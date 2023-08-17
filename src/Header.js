@@ -11,8 +11,6 @@ function Header() {
         <img src={logo} className="logo" alt="logo" />
       </Link>
 
-
-
     </header>
   );
 }
