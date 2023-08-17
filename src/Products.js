@@ -89,12 +89,12 @@ function Products() {
                     <p className="product-title">Stellwand PIN POINT XL</p>
                 </Link>
 
-                <Link to="/anfrage/">
+                <Link to="/anfrage/printarea-stellwand-quickpoint-hoch">
                     <div className="product-item stellwand-quick-point-h"></div>
                     <p className="product-title">Stellwand QUICK POINT Hochformat</p>
                 </Link>
 
-                <Link to="/anfrage/">
+                <Link to="/anfrage/printarea-stellwand-quickpoint-hoch">
                     <div className="product-item stellwand-quick-point-q"></div>
                     <p className="product-title">Stellwand QUICK POINT Querformat</p>
                 </Link>
