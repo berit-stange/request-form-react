@@ -18,7 +18,6 @@ function Products() {
                     <button className="button-progress" onClick={() => { }} >3</button>
                     <button className="button-progress" onClick={() => { }} >4</button>
                     <button className="button-progress" onClick={() => { }} >5</button>
-                    <button className="button-progress" onClick={() => { }} >6</button>
                 </div>
             </div>
 
