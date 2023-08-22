@@ -21,10 +21,6 @@ function NumberOfStools() {
             <div>
                 <p className="erklaerung">Je nach Stückzahl und Produkt entscheiden wir,
                     ob mit Sieb- oder Digitaldruck produziert wird.</p>
-                {/* <p className="erklaerung">
-                    Wenn Sie noch nicht sicher sind, weil noch nicht alles geklärt ist, wählen Sie eine Stückzahl,
-                    die dem Ziel am nächsten ist.
-                </p> */}
             </div>
 
             <form className="number-input-box">
