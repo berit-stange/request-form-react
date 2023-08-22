@@ -19,7 +19,7 @@ function NumberOfWalls() {
             </div>
 
             <div>
-                <p className="erklaerung">Wählen Sie die Farben aus. Je nach Stückzahl und Produkt entscheiden wir,
+                <p className="erklaerung">Je nach Stückzahl und Produkt entscheiden wir,
                     wie produziert wird.</p>
             </div>
 

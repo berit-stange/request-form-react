@@ -19,7 +19,7 @@ function NumberOfStools() {
             </div>
 
             <div>
-                <p className="erklaerung">Wählen Sie die Farben aus. Je nach Stückzahl und Produkt entscheiden wir,
+                <p className="erklaerung">Je nach Stückzahl und Produkt entscheiden wir,
                     ob mit Sieb- oder Digitaldruck produziert wird.</p>
                 {/* <p className="erklaerung">
                     Wenn Sie noch nicht sicher sind, weil noch nicht alles geklärt ist, wählen Sie eine Stückzahl,
