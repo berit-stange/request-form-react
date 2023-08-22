@@ -27,6 +27,12 @@ function NumberOfWalls() {
                 <input className="number-input"></input>
             </form>
 
+            <Link to="/anfrage/customer-data">
+                <div className="button-weiter">
+                    <p className="">weiter</p>
+                </div>
+            </Link>
+
 
         </div>
     );

@@ -31,69 +31,11 @@ function NumberOfStools() {
                 <input className="number-input"></input>
             </form>
 
-            {/* <div className="number-grid">
-
-                <Link to="/anfrage/number-of-stools">
-                    <div className="number">
-                        <p className="">50</p>
-                    </div>
-                </Link>
-
-                <Link to="/anfrage/number-of-stools">
-                    <div className="number">
-                        <p className="">100</p>
-                    </div>
-                </Link>
-
-                <Link to="/anfrage/number-of-stools">
-                    <div className="number">
-                        <p className="">150</p>
-                    </div>
-                </Link>
-
-                <Link to="/anfrage/number-of-stools">
-                    <div className="number">
-                        <p className="">175</p>
-                    </div>
-                </Link>
-
-                <Link to="/anfrage/number-of-stools">
-                    <div className="number">
-                        <p className="">200</p>
-                    </div>
-                </Link>
-
-                <Link to="/anfrage/number-of-stools">
-                    <div className="number">
-                        <p className="">225</p>
-                    </div>
-                </Link>
-
-                <Link to="/anfrage/number-of-stools">
-                    <div className="number">
-                        <p className="">250</p>
-                    </div>
-                </Link>
-
-                <Link to="/anfrage/number-of-stools">
-                    <div className="number">
-                        <p className="">375</p>
-                    </div>
-                </Link>
-
-                <Link to="/anfrage/number-of-stools">
-                    <div className="number">
-                        <p className="">400</p>
-                    </div>
-                </Link>
-
-                <Link to="/anfrage/number-of-stools">
-                    <div className="number">
-                        <p className="">450</p>
-                    </div>
-                </Link>
-
-            </div> */}
+            <Link to="/anfrage/customer-data">
+                <div className="button-weiter">
+                    <p className="">weiter</p>
+                </div>
+            </Link>
 
         </div>
     );
