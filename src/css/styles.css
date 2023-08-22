@@ -185,6 +185,24 @@ h1 {
   padding: 100px 10px 100px 10px;
 }
 
+.data-input-box {
+  display: grid;
+  justify-content: center;
+  padding: 50px 10px 50px 10px;
+  border-radius: 5px;
+}
+
+.button-weiter {
+  background-color: #14b042;
+  color: #ffffff;
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
 .footer {
   width: 90%;
   max-width: 1200px;
@@ -199,10 +217,10 @@ h1 {
   width: 90%;
   max-width: 1200px;
   background-color: #14b042;
-  padding-bottom: 50px;
 }
 .footer a {
   color: #ffffff;
+  font-size: 1.2em;
 }
 .footer .logo-klein {
   display: inline-block;
@@ -252,6 +270,7 @@ h1 {
   font-weight: 600;
   padding: 10px 10px 10px 10px;
   display: inline-block;
+  font-size: 1.1em;
 }
 .footer .a-foot-spez:hover {
   color: #222222;
