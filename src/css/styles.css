@@ -182,6 +182,7 @@ h1 {
 .number-input-box {
   display: grid;
   justify-content: center;
+  padding: 100px 10px 100px 10px;
 }
 
 .footer {
