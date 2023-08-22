@@ -1,7 +1,7 @@
 import React from 'react';
 // import logo from './stange-design-logo.svg';
 // import './App.css';
-import { BrowserRouter, Routes, Route, BrowserHistory } from 'react-router-dom';
+import { BrowserRouter, Routes, Route/* , BrowserHistory */ } from 'react-router-dom';
 import PrintareaStoolMaks from './PrintareaStoolMaks';
 import PrintareaStoolSitzwuerfel from './PrintareaStoolSitzwuerfel';
 import PrintareaBarhocker from './PrintareaBarhocker';
