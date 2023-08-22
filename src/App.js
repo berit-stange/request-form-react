@@ -16,6 +16,7 @@ import ColorOptionsStoolMaks from './ColorOptionsStoolMaks';
 import ColorOptionsStoolSitzwuerfel from './ColorOptionsStoolSitzwuerfel';
 import ColorOptionsWall from './ColorOptionsWall';
 import NumberOfWalls from './NumberOfWalls';
+import CustomerData from './CustomerData';
 
 import Footer from './Footer';
 
@@ -50,6 +51,7 @@ function App() {
         <Route exact path="/anfrage/color-options-wall" element={<ColorOptionsWall />} />
         <Route exact path="/anfrage/number-of-stools" element={<NumberOfStools />} />
         <Route exact path="/anfrage/number-of-walls" element={<NumberOfWalls />} />
+        <Route exact path="/anfrage/customer-data" element={<CustomerData />} />
       </Routes>
 
       <Footer />
