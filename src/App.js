@@ -1,6 +1,4 @@
 import React from 'react';
-// import logo from './stange-design-logo.svg';
-// import './App.css';
 import { BrowserRouter, Routes, Route/* , BrowserHistory */ } from 'react-router-dom';
 import PrintareaStoolMaks from './PrintareaStoolMaks';
 import PrintareaStoolSitzwuerfel from './PrintareaStoolSitzwuerfel';
@@ -29,29 +27,29 @@ import ProductList from './ProductList';
 function App() {
   return (
 
-    <BrowserRouter >
+    <BrowserRouter basename="/anfrage">
 
       <Header />
 
       <Routes >
-        <Route exact path="/anfrage/" element={<Products />} />
-        <Route exact path="/anfrage/productlist" element={<ProductList />} />
+        <Route exact path="/" element={<Products />} />
+        <Route exact path="/productlist" element={<ProductList />} />
 
-        <Route exact path="/anfrage/printarea-stool-maks" element={<PrintareaStoolMaks />} />
-        <Route exact path="/anfrage/printareasitzwuerfel" element={<PrintareaStoolSitzwuerfel />} />
-        <Route exact path="/anfrage/printarea-barhocker" element={<PrintareaBarhocker />} />
-        <Route exact path="/anfrage/printarea-stellwand-dino" element={<PrintareaStellwandDino />} />
-        <Route exact path="/anfrage/printarea-stellwand-muro" element={<PrintareaStellwandMuro />} />
-        <Route exact path="/anfrage/printarea-stellwand-pinpoint" element={<PrintareaStellwandPinPoint />} />
-        <Route exact path="/anfrage/printarea-stellwand-pinpoint-xl" element={<PrintareaStellwandPinPointXL />} />
-        <Route exact path="/anfrage/printarea-stellwand-quickpoint-hoch" element={<PrintareaStellwandQuickPointHoch />} />
+        <Route exact path="/printarea-stool-maks/" element={<PrintareaStoolMaks />} />
+        <Route exact path="/printarea-sitzwuerfel/" element={<PrintareaStoolSitzwuerfel />} />
+        <Route exact path="/printarea-barhocker/" element={<PrintareaBarhocker />} />
+        <Route exact path="/printarea-stellwand-dino" element={<PrintareaStellwandDino />} />
+        <Route exact path="/printarea-stellwand-muro" element={<PrintareaStellwandMuro />} />
+        <Route exact path="/printarea-stellwand-pinpoint" element={<PrintareaStellwandPinPoint />} />
+        <Route exact path="/printarea-stellwand-pinpoint-xl" element={<PrintareaStellwandPinPointXL />} />
+        <Route exact path="/printarea-stellwand-quickpoint-hoch" element={<PrintareaStellwandQuickPointHoch />} />
 
-        <Route exact path="/anfrage/color-options-stool-maks" element={<ColorOptionsStoolMaks />} />
-        <Route exact path="/anfrage/color-options-stool-sitzwuerfel" element={<ColorOptionsStoolSitzwuerfel />} />
-        <Route exact path="/anfrage/color-options-wall" element={<ColorOptionsWall />} />
-        <Route exact path="/anfrage/number-of-stools" element={<NumberOfStools />} />
-        <Route exact path="/anfrage/number-of-walls" element={<NumberOfWalls />} />
-        <Route exact path="/anfrage/customer-data" element={<CustomerData />} />
+        <Route exact path="/color-options-stool-maks" element={<ColorOptionsStoolMaks />} />
+        <Route exact path="/color-options-stool-sitzwuerfel" element={<ColorOptionsStoolSitzwuerfel />} />
+        <Route exact path="/color-options-wall" element={<ColorOptionsWall />} />
+        <Route exact path="/number-of-stools" element={<NumberOfStools />} />
+        <Route exact path="/number-of-walls" element={<NumberOfWalls />} />
+        <Route exact path="/customer-data" element={<CustomerData />} />
       </Routes>
 
       <Footer />

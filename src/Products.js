@@ -23,78 +23,78 @@ function Products() {
 
             <div className="product-grid">
 
-                <Link to="/anfrage/printarea-stool-maks">
+                <Link to="/printarea-stool-maks/">
                     <div className="product-item hocker-maks"></div>
                     <p className="product-title">Hocker MAKS</p>
                 </Link>
 
-                <Link to="/anfrage/printareasitzwuerfel">
+                <Link to="/printarea-sitzwuerfel/">
                     <div className="product-item hocker-sitzwuerfel"></div>
                     <p className="product-title">Hocker SITZWÜRFEL</p>
                 </Link>
 
-                <Link to="/anfrage/printarea-barhocker">
+                <Link to="/printarea-barhocker/">
                     <div className="product-item hocker-barhocker"> </div>
                     <p className="product-title">Hocker BARHOCKER</p>
                 </Link>
 
-                <Link to="/anfrage/printarea-stellwand-dino">
+                <Link to="/printarea-stellwand-dino">
                     <div className="product-item stellwand-dino"> </div>
                     <p className="product-title">Stellwand DINO</p>
                 </Link>
 
-                <Link to="/anfrage/printarea-stellwand-muro">
+                <Link to="/printarea-stellwand-muro">
                     <div className="product-item stellwand-muro-100x200"></div>
                     <p className="product-title">Stellwand MURO <br />
                         100 x 200 cm</p>
                 </Link>
 
-                <Link to="/anfrage/printarea-stellwand-muro">
+                <Link to="/printarea-stellwand-muro">
                     <div className="product-item stellwand-muro-110x200"></div>
                     <p className="product-title">Stellwand MURO <br />
                         110 x 200 cm</p>
                 </Link>
 
-                <Link to="/anfrage/printarea-stellwand-muro">
+                <Link to="/printarea-stellwand-muro">
                     <div className="product-item stellwand-muro-120x200"></div>
                     <p className="product-title">Stellwand MURO <br />
                         120 x 200 cm</p>
                 </Link>
 
-                <Link to="/anfrage/printarea-stellwand-muro">
+                <Link to="/printarea-stellwand-muro">
                     <div className="product-item stellwand-muro-100x220"></div>
                     <p className="product-title">Stellwand MURO <br />
                         100 x 220 cm</p>
                 </Link>
 
-                <Link to="/anfrage/printarea-stellwand-muro">
+                <Link to="/printarea-stellwand-muro">
                     <div className="product-item stellwand-muro-110x220"></div>
                     <p className="product-title">Stellwand MURO <br />
                         110 x 220 cm</p>
                 </Link>
 
-                <Link to="/anfrage/printarea-stellwand-muro">
+                <Link to="/printarea-stellwand-muro">
                     <div className="product-item stellwand-muro-120x220"></div>
                     <p className="product-title">Stellwand MURO <br />
                         120 x 220 cm</p>
                 </Link>
 
-                <Link to="/anfrage/printarea-stellwand-pinpoint">
+                <Link to="/printarea-stellwand-pinpoint">
                     <div className="product-item stellwand-pin-point"></div>
                     <p className="product-title">Stellwand PIN POINT</p>
                 </Link>
 
-                <Link to="/anfrage/printarea-stellwand-pinpoint-xl">
+                <Link to="/printarea-stellwand-pinpoint-xl">
                     <div className="product-item stellwand-pin-point-xl"></div>
                     <p className="product-title">Stellwand PIN POINT XL</p>
                 </Link>
 
-                <Link to="/anfrage/printarea-stellwand-quickpoint-hoch">
+                <Link to="/printarea-stellwand-quickpoint-hoch">
                     <div className="product-item stellwand-quick-point-h"></div>
                     <p className="product-title">Stellwand QUICK POINT Hochformat</p>
                 </Link>
 
-                <Link to="/anfrage/printarea-stellwand-quickpoint-hoch">
+                <Link to="/printarea-stellwand-quickpoint-hoch">
                     <div className="product-item stellwand-quick-point-q"></div>
                     <p className="product-title">Stellwand QUICK POINT Querformat</p>
                 </Link>

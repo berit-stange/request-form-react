@@ -23,17 +23,17 @@ function PrintareaStoolMaks() {
 
             <div className="product-grid">
 
-                <Link to="/anfrage/color-options-stool-maks">
+                <Link to="/color-options-stool-maks">
                     <div className="product-item hocker-maks-1"></div>
                     <p className="product-title">1 Seite bis max. A4</p>
                 </Link>
 
-                <Link to="/anfrage/color-options-stool-maks">
+                <Link to="/color-options-stool-maks">
                     <div className="product-item hocker-maks-2"></div>
                     <p className="product-title">2 Seiten bis max. A4</p>
                 </Link>
 
-                <Link to="/anfrage/color-options-stool-maks">
+                <Link to="/color-options-stool-maks">
                     <div className="product-item hocker-maks-komplett"></div>
                     <p className="product-title">komplett bedruckt</p>
                 </Link>

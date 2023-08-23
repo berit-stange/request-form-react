@@ -23,22 +23,22 @@ function PrintareaStellwandDino() {
 
             <div className="product-grid">
 
-                <Link to="/anfrage/color-options-wall">
+                <Link to="/color-options-wall">
                     <div className="product-item stellwand-dino-1"></div>
                     <p className="product-title">1 Seite / Mittelwand</p>
                 </Link>
 
-                <Link to="/anfrage/color-options-wall">
+                <Link to="/color-options-wall">
                     <div className="product-item stellwand-dino-1-b"></div>
                     <p className="product-title">1 Seite mit Stützbeinen</p>
                 </Link>
 
-                <Link to="/anfrage/color-options-wall">
+                <Link to="/color-options-wall">
                     <div className="product-item stellwand-dino-2"></div>
                     <p className="product-title">2 Seiten / Mittelwand</p>
                 </Link>
 
-                <Link to="/anfrage/color-options-wall">
+                <Link to="/color-options-wall">
                     <div className="product-item stellwand-dino-2-b"></div>
                     <p className="product-title">2 Seiten mit Stützbeinen</p>
                 </Link>
