@@ -36,7 +36,7 @@ function CustomerData() {
             </form>
 
 
-            <Link to="/anfrage/customer-data">
+            <Link to="/customer-data">
                 <div className="button-weiter">
                     <p className="">Anfrage abschicken</p>
                 </div>

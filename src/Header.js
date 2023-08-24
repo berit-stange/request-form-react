@@ -7,7 +7,7 @@ function Header() {
   return (
     <header className="">
 
-      <Link to="/anfrage/">
+      <Link to="/">
         <img src={logo} className="logo" alt="logo" />
       </Link>
 
